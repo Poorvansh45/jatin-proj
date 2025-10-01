@@ -1,0 +1,43 @@
+@keyframes orbit {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  20% {
+    transform: translateY(-12px) translateX(12px);
+  }
+  40% {
+    transform: translateY(-18px) translateX(-12px);
+  }
+  60% {
+    transform: translateY(12px) translateX(-12px);
+  }
+  80% {
+    transform: translateY(18px) translateX(12px);
+  }
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+}
+
+@keyframes icon-orbit {
+  0% {
+    transform: scale(1) rotate(0deg);
+    filter: brightness(1);
+  }
+  25% {
+    transform: scale(1.08) rotate(8deg);
+    filter: brightness(1.15);
+  }
+  50% {
+    transform: scale(1.12) rotate(-8deg);
+    filter: brightness(1.25);
+  }
+  75% {
+    transform: scale(1.08) rotate(8deg);
+    filter: brightness(1.15);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+    filter: brightness(1);
+  }
+} 
